@@ -2,9 +2,10 @@
 
 
 body {
-    background-image: url("/Users/tracynguyen/Desktop/Google Drive Macbook/UC Berkeley Bootcamp/Github Assignments/2. Building a Wireframe/Basic-Portfolio/assets/images/beige-tiles.png");
+    background-image: url("../images/beige-tiles.png");
     background-color: #4aaaa5;
     width: 100%;
+    position: relative;
 }
 /* Headers */   /* Navigation Bar */
 
@@ -13,12 +14,15 @@ body {
     top: 0;
     position: absolute;
     background-color: #ffffff;
-    border-bottom: 3px solid #cccccc;
+    border-bottom: 0.25em solid #cccccc;
 }
 
+/*960px = 60em*/
 .navbar {
-    max-width: 960px;
+    max-width: 60em;
     margin: auto;
+    padding: 0;
+    display: block;
 }
 
 .navbar-name {
@@ -27,7 +31,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2.5em;
     background: #4aaaa5;
-    padding: 37px;
+    padding: 1em;
     margin: 0;
     color: white;
 }
@@ -37,9 +41,9 @@ a.nav {
     text-decoration: none;
     font-family: importHelveticaNeue, Arial, Helvetica, sans-serif;
     color: #777777;
-    font-size: 1.7em;
+    font-size: 1.5em;
     padding: 20px;
-    margin: 30px 0px 20px 10px;
+    margin: 2.2em 0 0;
 }
 
 @font-face {
@@ -52,19 +56,20 @@ a.nav:hover {
 }
 
 
-/* Main Content width is 960px */
-section.top-section {
+/* Main Content width is 960px = 60em */
+section.main-section {
     clear: both;
-    max-width: 900px;
+    box-sizing: content-box;
+    max-width: 55.5em; /*60em - 4em - 0.5em*/
     margin: auto; 
     position: relative;
-    padding: 0px 30px;
-    top: 170px;
-    border: 3px solid #dddddd;
+    padding: 0px 2em 2em;
+    top: 12em;
+    border: 0.25em solid #dddddd;
     background-color: #ffffff;
 }
 
-h1.about-me {
+h1.main-section-header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2.5em;
     margin-top: 50px;
@@ -83,7 +88,7 @@ img {
 article.content {
     font-family: importHelveticaNeue, Arial, Helvetica, sans-serif;
     color: #777777;
-    font-size: 1.7em;
+    font-size: 1.5em;
     letter-spacing: 1px;
     line-height: 1.6; /*1.6 is recommended universal line height*/
     padding: 0;
@@ -93,7 +98,7 @@ article.content {
 footer {
     position: absolute;
     width: 100%;
-    bottom: 0;
+    bottom: -35em;
     padding: 30px 0 10px 0;
     font-family: importHelveticaNeue, Arial, Helvetica, sans-serif;
     font-size: 1em;
