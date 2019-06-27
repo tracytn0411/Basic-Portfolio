@@ -24,11 +24,13 @@ In this assignment, you'll build a professional portfolio site using HTML/CSS. T
 
 5. Reference these screenshots for your site:
 
-   ![Portfolio About](Images/portfolio-about-me.png)
 
-   ![Portfolio Contact](Images/portfolio-contact.png)
+<img src="assets/images/portfolio-about-me.png" width="80%">
+   
+<img src="assets/images/portfolio-contact.png" width="80%">
 
-   ![Portfolio Gallery](Images/portfolio-gallery.png)
+<img src="assets/images/portfolio-gallery.png" width="80%">
+    
 
    * **IMPORTANT** Your site's layout must match the designs in these screenshots. You'll find the specs for these designs below.
 
